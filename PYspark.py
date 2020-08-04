@@ -12,7 +12,7 @@ spark_rdd =spark.read\
  .csv("/home/superadmin/DBDA/project/OYD/"
   "Company_assignments/nonConfidential.csv")
 
-# spark_rdd.show()
+
 
 spark_parquat = spark.read.parquet("/home/superadmin/DBDA/project/OYD/Company_assignments/confidential.snappy.parquet")
 
